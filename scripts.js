@@ -25,6 +25,7 @@ const resources = [
     {
         category: "Productivity",
         links: [
+            { name: "Github", url: "https://github.com/"},
             { name: "Geeks for Geeks", url: "https://www.geeksforgeeks.org" },
             { name: "Chat GPT", url: "https://chat.openai.com/" },
             { name: "Unsplash", url: "https://unsplash.com/" },
