@@ -10,7 +10,8 @@ const resources = [
             { name: "Linux on Tech Mint", url: "https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/" },
             { name: "Linux on GFG", url: "https://www.geeksforgeeks.org/linux-tutorial/" },
             { name: "Javatpoint", url: "https://www.javatpoint.com/java-tutorial" }
-        ]
+        ],
+        animationClass: 'bca-animate'
     },
     {
         category: "Banking",
@@ -20,25 +21,27 @@ const resources = [
             { name: "Reasoning", url: "https://youtube.com/playlist?list=PLpKGxj880QG2XBnDvMVmUh_fF83FOgDxr&feature=shared" },
             { name: "G A", url: "https://youtube.com/playlist?list=PLpKGxj880QG2SqfgB9YxHD-_dZFl9QWvJ&feature=shared" },
             { name: "Current Affairs", url: "https://youtube.com/playlist?list=PLpKGxj880QG1Tb91uupEO6TctqMh5hrQQ&feature=shared" }
-        ]
+        ],
+        animationClass: 'banking-animate'
     },
     {
         category: "Productivity",
         links: [
-            { name: "Github", url: "https://github.com/"},
+            { name: "Github", url: "https://github.com/" },
             { name: "Geeks for Geeks", url: "https://www.geeksforgeeks.org" },
             { name: "Chat GPT", url: "https://chat.openai.com/" },
             { name: "Unsplash", url: "https://unsplash.com/" },
             { name: "Web Dev", url: "https://web.dev/" },
             { name: "Leet Code", url: "https://leetcode.com/" },
             { name: "Online Linux Server", url: "https://acceleratron.in/vm-linux-terminal" }
-        ]
+        ],
+        animationClass: 'productivity-animate'
     }
 ];
 
-function createResourceSection(category, links) {
+function createResourceSection(category, links, animationClass) {
     const section = document.createElement('div');
-    section.className = 'classification-container';
+    section.className = `classification-container ${animationClass}`;
 
     const title = document.createElement('h2');
     title.textContent = category;
@@ -62,6 +65,13 @@ function createResourceSection(category, links) {
 
 const classificationDiv = document.getElementById('classification');
 resources.forEach(resource => {
-    const resourceSection = createResourceSection(resource.category, resource.links);
+    const resourceSection = createResourceSection(resource.category, resource.links, resource.animationClass);
     classificationDiv.appendChild(resourceSection);
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const sections = document.querySelectorAll('.classification-container');
+    sections.forEach(section => {
+        section.style.opacity = '1';
+    });
 });
