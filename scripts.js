@@ -30,6 +30,7 @@ const resources = [
             { name: "Github", url: "https://github.com/" },
             { name: "Geeks for Geeks", url: "https://www.geeksforgeeks.org" },
             { name: "Chat GPT", url: "https://chat.openai.com/" },
+            { name: "Co-pilot", url: "https://copilot.microsoft.com/?showconv=1" },
             { name: "Unsplash", url: "https://unsplash.com/" },
             { name: "Web Dev", url: "https://web.dev/" },
             { name: "Leet Code", url: "https://leetcode.com/" },
