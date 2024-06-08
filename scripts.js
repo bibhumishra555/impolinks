@@ -20,8 +20,8 @@ const resources = [
             { name: "English", url: "https://youtube.com/playlist?list=PLpKGxj880QG3A6v2CxWCzStcR_jaj6oNC&feature=shared" },
             { name: "Reasoning", url: "https://youtube.com/playlist?list=PLpKGxj880QG2XBnDvMVmUh_fF83FOgDxr&feature=shared" },
             { name: "G A", url: "https://youtube.com/playlist?list=PLpKGxj880QG2SqfgB9YxHD-_dZFl9QWvJ&feature=shared" },
-            { name: "Current Affairs", url: "https://youtube.com/playlist?list=PLpKGxj880QG1Tb91uupEO6TctqMh5hrQQ&feature=shared" }
-            { name: "Test-Book", url: "https://testbook.com/" }
+            { name: "Current Affairs", url: "https://youtube.com/playlist?list=PLpKGxj880QG1Tb91uupEO6TctqMh5hrQQ&feature=shared" },
+            { name: "Test-Book", url: "https://testbook.com" }  // <-- Added this line
         ],
         animationClass: 'banking-animate'
     },
