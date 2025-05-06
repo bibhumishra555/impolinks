@@ -14,16 +14,25 @@ const resources = [
         animationClass: 'bca-animate'
     },
     {
-        category: "Banking",
+        category: "Research",
         links: [
-            { name: "Quant", url: "https://youtube.com/playlist?list=PLpKGxj880QG2Yco-J3RiJAq8IZ81MOVaT&feature=shared" },
-            { name: "English", url: "https://youtube.com/playlist?list=PLpKGxj880QG3A6v2CxWCzStcR_jaj6oNC&feature=shared" },
-            { name: "Reasoning", url: "https://youtube.com/playlist?list=PLpKGxj880QG2XBnDvMVmUh_fF83FOgDxr&feature=shared" },
-            { name: "G A", url: "https://youtube.com/playlist?list=PLpKGxj880QG2SqfgB9YxHD-_dZFl9QWvJ&feature=shared" },
-            { name: "Current Affairs", url: "https://youtube.com/playlist?list=PLpKGxj880QG1Tb91uupEO6TctqMh5hrQQ&feature=shared" },
-            { name: "Test-Book", url: "https://testbook.com" }  // <-- Added this line
+            { name: "Science direct", url: "https://www.sciencedirect.com/" },
+            { name: "Springer", url: "https://link.springer.com/" },
+            { name: "Scholar", url: "https://scholar.google.com/" },
+            { name: "IEEE Xploer", url: "https://ieeexplore.ieee.org/Xplore/home.jsp" },
+            { name: "Harward", url: "https://drodrik.scholar.harvard.edu/research-papers" },
+            { name: "Nature", url: "https://www.nature.com/" },
+            { name: "ARXIV", url: "https://arxiv.org/" },
+            { name: "Nature", url: "https://www.nature.com/" },
+            { name: "Elsevier", url: "https://www.elsevier.com/" },
+            { name: "Nature", url: "https://www.nature.com/" },
+            { name: "Mendeley", url: "https://www.mendeley.com/search/" },
+            { name: "Nature", url: "https://www.nature.com/" },
+            { name: "QiTiP", url: "https://qutip.org/" },
+            { name: "Nature", url: "https://www.nature.com/" },
+            { name: "Nature", url: "https://www.nature.com/" },// <-- Added this line
         ],
-        animationClass: 'banking-animate'
+        animationClass: 'Research-animate'
     },
     {
         category: "Productivity",
