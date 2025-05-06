@@ -1,19 +1,6 @@
 const resources = [
-    {
-        category: "BCA",
-        links: [
-            { name: "Syllabus", url: "https://lndcollege.co.in/syllabus/BCA_Syllabus.pdf" },
-            { name: "Java by CWH", url: "https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q&feature=shared" },
-            { name: "Java by Apna college", url: "https://youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&feature=shared" },
-            { name: "Linuxjourney", url: "https://linuxjourney.com/" },
-            { name: "Bandit", url: "https://overthewire.org/wargames/bandit/bandit5.html" },
-            { name: "Linux on Tech Mint", url: "https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/" },
-            { name: "Linux on GFG", url: "https://www.geeksforgeeks.org/linux-tutorial/" },
-            { name: "Javatpoint", url: "https://www.javatpoint.com/java-tutorial" }
-        ],
-        animationClass: 'bca-animate'
-    },
-    {
+   
+ {
         category: "Research",
         links: [
             { name: "Science direct", url: "https://www.sciencedirect.com/" },
@@ -34,7 +21,23 @@ const resources = [
         ],
         animationClass: 'Research-animate'
     },
-    {
+  
+
+ {
+        category: "BCA",
+        links: [
+            { name: "Syllabus", url: "https://lndcollege.co.in/syllabus/BCA_Syllabus.pdf" },
+            { name: "Java by CWH", url: "https://youtube.com/playlist?list=PLu0W_9lII9agS67Uits0UnJyrYiXhDS6q&feature=shared" },
+            { name: "Java by Apna college", url: "https://youtube.com/playlist?list=PLfqMhTWNBTe3LtFWcvwpqTkUSlB32kJop&feature=shared" },
+            { name: "Linuxjourney", url: "https://linuxjourney.com/" },
+            { name: "Bandit", url: "https://overthewire.org/wargames/bandit/bandit5.html" },
+            { name: "Linux on Tech Mint", url: "https://www.tecmint.com/free-online-linux-learning-guide-for-beginners/" },
+            { name: "Linux on GFG", url: "https://www.geeksforgeeks.org/linux-tutorial/" },
+            { name: "Javatpoint", url: "https://www.javatpoint.com/java-tutorial" }
+        ],
+        animationClass: 'bca-animate'
+    },
+      {
         category: "Productivity",
         links: [
             { name: "Github", url: "https://github.com/" },
